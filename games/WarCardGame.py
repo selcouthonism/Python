@@ -15,7 +15,7 @@ class Deck():
         self.card_list = []
     
     def __create(self):
-        suits = ["Clubs (¦)", "Diamonds (¦)", "Hearts (¦)", "Spades (¦)"]
+        suits = ["Clubs (♣)", "Diamonds (♦)", "Hearts (♥)", "Spades (♠)"]
     
         for suit in suits:
             for value in range(2,11):
