@@ -1,3 +1,4 @@
+''' This game is designed for terminal '''
 
 print("The beginning of the program.")
 
