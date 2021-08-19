@@ -50,3 +50,10 @@ print(calculateRange(customer["latitude"], customer["longitude"]))
 
 #read args from terminal
 #https://stackoverflow.com/questions/70797/how-to-prompt-for-user-input-and-read-command-line-arguments
+
+import urllib2
+
+data = urllib2.urlopen("https://github.com/selcouthonism/Python/blob/main/FindCustomersInGivenRange/customer.txt") # it's a file like object and works just like a file
+
+for line in data: # files are iterable
+    print line
