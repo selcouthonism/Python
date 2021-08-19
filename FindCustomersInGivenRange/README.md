@@ -1,6 +1,6 @@
 This project finds customers whose location is within 100 km. <br>
 
-Steps:
+Steps: <br>
 Open and read file, <br>
 parse customer info (customer info is in json format), <br>
 calculate range between two locations (using lat,long), <br>
