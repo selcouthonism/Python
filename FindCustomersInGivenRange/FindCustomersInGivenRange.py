@@ -42,23 +42,3 @@ open_file_and_find_customer()
 sort_and_write_to_file()
 
 
-'''
-# some JSON:
-customer_info = '{"latitude": "52.986375", "user_id": 12, "name": "Christina McArdle", "longitude": "-6.043701"}'
-
-# parse
-customer = json.loads(customer_info)
-print(calculateRange(customer["latitude"], customer["longitude"]))
-
-#read args from terminal
-#https://stackoverflow.com/questions/70797/how-to-prompt-for-user-input-and-read-command-line-arguments
-
-# Read file from web
-import urllib2
-
-data = urllib2.urlopen("https://github.com/selcouthonism/Python/blob/main/FindCustomersInGivenRange/customer.txt") 
-# it's a file like object and works just like a file
-
-for line in data: # files are iterable
-    print line
-'''
